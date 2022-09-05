@@ -295,3 +295,7 @@ git log --graph --oneline --decorate
 
 # create my own repository so I don't lose my notes:
 git clone https://github.com/jeffroy956/mastering-git
+
+# rename master remote to main
+git branch --move main
+git push -u origin main
