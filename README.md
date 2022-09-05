@@ -316,3 +316,6 @@ git revert 5720fdf
 git show 1d2799
 git cat-file 1d2799 -t
 git cat-file 1d2799 -p
+
+revert does not mean "undo"
+"reset" is closes git operation to and undo
