@@ -313,3 +313,6 @@ we could use an interactive rebase but that is heavy weight
 
 git revert 5720fdf
 
+git show 1d2799
+git cat-file 1d2799 -t
+git cat-file 1d2799 -p
