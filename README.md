@@ -299,3 +299,17 @@ git clone https://github.com/jeffroy956/mastering-git
 # rename master remote to main
 git branch --move main
 git push -u origin main
+
+https://dev.to/rhymu/git-renaming-the-master-branch-137b
+
+#  reverting commits
+git checkout lisa
+git log --graph --decorate --oneline
+
+5720fdf commit added cheesecake without recipe, let's revert
+
+we could use an interactive rebase but that is heavy weight
+# git revert rolls back old commit with a new commit that is exactly the opposite of the original commit while keeping all version histroy
+
+git revert 5720fdf
+
