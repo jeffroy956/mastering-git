@@ -319,3 +319,6 @@ git cat-file 1d2799 -p
 
 revert does not mean "undo"
 "reset" is closes git operation to and undo
+
+# last moves
+trying out rebase
