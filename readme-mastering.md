@@ -325,3 +325,5 @@ trying out rebase
 rebase second change
 
 now testing merge check-in 1
+now testing merge check-in 2
+
