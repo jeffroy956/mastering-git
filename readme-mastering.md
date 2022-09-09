@@ -323,3 +323,5 @@ revert does not mean "undo"
 # last moves
 trying out rebase
 rebase second change
+
+now testing merge check-in 1
